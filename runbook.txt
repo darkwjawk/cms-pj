@@ -1,0 +1,1 @@
+Import-AzAutomationRunbook -AutomationAccountName 'chocoprj-automation-stg-je-001' -Name 'testmourunbook-01' -Path .\testrunbook.ps1 -Published -ResourceGroupName 'M00748-0001-dev-JE-002-rg' -Type PowerShell
