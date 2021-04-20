@@ -1,0 +1,14 @@
+# アクショングループ
+# 条件作成
+$Receiver = New-AzActionGroupReceiver `
+-Name "chocoprj-app-cd-prd-je-response-warning-act-001" `
+-WebhookReceiver `
+-ServiceUri https://test.com;
+
+# アクショングループ
+# 条件作成
+Set-AzActionGroup `
+-Name "chocoprj-app-cd-prd-je-response-warning-actg-001" `
+-ResourceGroup "M00748-0001-prd-JE-002-rg" `
+-ShortName "Metrics" `
+-Receiver $Receiver;
