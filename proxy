@@ -1,0 +1,6 @@
+url: lv3dev-proxy.nwdept
+port: 8080
+
+
+例外：
+*.tm.softbank.jp;*.local;*.dev.g.softbank.co.jp;adfs.g.softbank.co.jp;auth.g.softbank.co.jp;*.ark.sbb-sys.info;10.*;172.*;192.168.*;proself-l3dev
